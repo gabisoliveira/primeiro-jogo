@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"objplayer",
+  "%Name":"ObjCortanteAndando",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ObjColetavel","path":"objects/ObjColetavel/ObjColetavel.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ObjCortante","path":"objects/ObjCortante/ObjCortante.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objplayer",
+  "name":"ObjCortanteAndando",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprPlayer",
-    "path":"sprites/sprPlayer/sprPlayer.yy",
+    "name":"sprFundo",
+    "path":"sprites/sprFundo/sprFundo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
