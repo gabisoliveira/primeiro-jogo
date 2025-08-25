@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ObjCortante",
+  "%Name":"objLobo",
   "eventList":[],
   "managed":true,
-  "name":"ObjCortante",
+  "name":"objLobo",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",

@@ -1,2 +1,0 @@
-x += movimentoX
-y += movimentoY
