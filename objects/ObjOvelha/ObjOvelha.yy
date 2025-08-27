@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ObjLeao",
+  "%Name":"ObjOvelha",
   "eventList":[],
   "managed":true,
-  "name":"ObjLeao",
+  "name":"ObjOvelha",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprLeao",
-    "path":"sprites/SprLeao/SprLeao.yy",
+    "name":"SprOvelha",
+    "path":"sprites/SprOvelha/SprOvelha.yy",
   },
   "spriteMaskId":null,
   "visible":true,

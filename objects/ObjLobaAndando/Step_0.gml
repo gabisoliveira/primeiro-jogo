@@ -5,7 +5,7 @@ if (keyboard_check(ord("A"))or keyboard_check(vk_left)) and x - velocidade > 0{
 	 }
 }
 
-if  (keyboard_check(ord("D"))or keyboard_check(vk_right)) and x + velocidade < room_width {
+if  (keyboard_check(ord("D"))or keyboard_check(vk_right))and x + velocidade < room_width {
 	x += velocidade
 	if image_xscale < 0{
 		image_xscale *= -1
@@ -21,15 +21,5 @@ if (keyboard_check(ord("S"))or keyboard_check(vk_down))and y + velocidade < room
 }
 	
 if keyboard_check(vk_anykey){
-	sprite_index = sprPlayerAndando
-}
-else{
-	sprite_index = sprPlayer
-}
-
-if pontos == 13 and room != rmFase2{
-	room_goto_next()
-}
-else if pontos == 3 and room == rmFase2{
-	room = rmfase1
+	sprite_index = SprLobaAndando
 }

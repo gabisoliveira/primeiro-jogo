@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"ObjLeao",
-  "eventList":[],
+  "%Name":"ObjLeaoAndando",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"ObjLeao",
+  "name":"ObjLeaoAndando",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprLeao",
-    "path":"sprites/SprLeao/SprLeao.yy",
+    "name":"sprLeaoAndando",
+    "path":"sprites/sprLeaoAndando/sprLeaoAndando.yy",
   },
   "spriteMaskId":null,
   "visible":true,

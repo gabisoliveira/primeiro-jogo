@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"ObjLoba",
+  "%Name":"ObjLobaAndando",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ObjLobaAndando","path":"objects/ObjLobaAndando/ObjLobaAndando.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ObjLeaoAndando","path":"objects/ObjLeaoAndando/ObjLeaoAndando.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ObjLeao","path":"objects/ObjLeao/ObjLeao.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ObjOvelha","path":"objects/ObjOvelha/ObjOvelha.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjLoba",
+  "name":"ObjLobaAndando",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -35,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprLoba",
-    "path":"sprites/sprLoba/sprLoba.yy",
+    "name":"SprLobaAndando",
+    "path":"sprites/SprLobaAndando/SprLobaAndando.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,33 +1,33 @@
-if keyboard_check(ord("A")) keyboard_check(vk_left) and x - velocidade > 0{
+if (keyboard_check(ord("A")) or keyboard_check(vk_left)) and x - velocidade > 0{
 	x -=velocidade
 	if image_xscale > 0{
 		image_xscale *= -1
 	 }
 }
 
-if keyboard_check(ord("D")) keyboard_check(vk_right)and x + velocidade < room_width {
+if (keyboard_check(ord("D")) or keyboard_check(vk_right))and x + velocidade < room_width {
 	x += velocidade
 	if image_xscale < 0{
 		image_xscale *= -1
 	}
 }
 
-if keyboard_check(ord("W")) keyboard_check(vk_up)and y - velocidade > 0{
+if (keyboard_check(ord("W")) or keyboard_check(vk_up)) and y - velocidade > 0{
 	y -= velocidade
 }
 	
-if keyboard_check(ord("S")) keyboard_check(vk_down)and y + velocidade < room_height{
+if (keyboard_check(ord("S")) or keyboard_check(vk_down)) and y + velocidade < room_height{
 	y += velocidade
 }
 	
 if keyboard_check(vk_anykey){
-	sprite_index = sprPlayerAndando
+	sprite_index = SprLobaAndando
 }
 else{
-	sprite_index = sprPlayer
+	sprite_index = sprLoba
 }
 
-if pontos == 13 and room != rmFase3{
+if pontos == 6 and room != rmFase3{
 	room_goto_next()
 }
 else if pontos == 3 and room == rmFase3{
